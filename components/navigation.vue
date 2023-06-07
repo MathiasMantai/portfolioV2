@@ -1,12 +1,12 @@
 <template>
-    <header class="sm:w-[50vw] w-[80vw] m-auto py-4">
+    <header class="sm:w-[50vw] w-[80vw] m-auto py-4 text-lg">
         <nav>
             <ul class="flex justify-between items-center">
                 <li class="mr-[20vw]">
                     <Logo />
                 </li>
                 <li>
-                    <ul class="flex gap-4">
+                    <ul class="flex gap-8">
                         <li>
                             <NuxtLink to="/">
                                 Home
