@@ -1,0 +1,19 @@
+:root 
+{
+    --textColorNav: #ccd6f6;
+    --linkColor: rgb(23,190,187);
+    --backgroundColor: #0A192F;
+    background-color: var(--backgroundColor);
+    color: var(--textColorNav)
+}
+
+.router-link-active
+{
+    color: var(--linkColor);
+    text-decoration: underline;
+}
+
+.dark-mode body 
+{
+    background-color: var(--backgroundColor) !important;
+}
