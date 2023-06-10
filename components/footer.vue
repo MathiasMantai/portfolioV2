@@ -8,8 +8,10 @@
         <a href="https://xing.com/profile/Mathias_Mantai/cv" target="_blank"><Xing /></a>
         <div class="collapse sm:visible bg-[var(--textColorNav)] sm:w-[2px] sm:h-[50px]"></div>
     </div>
-    <div class="text-sm fixed bottom-0 w-full sm:w-fit text-center
-    sm:fixed sm:bottom-[280px] sm:left-[12px] sm:rotate-[-90deg]">
+    <div class="
+    text-sm fixed bottom-0 w-full text-center
+    sm:w-fit sm:fixed sm:bottom-[280px] sm:left-[12px] sm:rotate-[-90deg]
+    ">
         <Copyright />
     </div>
 </template>

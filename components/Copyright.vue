@@ -27,5 +27,5 @@
 </script>
 
 <template>
-    <span class="rotate-[-90deg]" v-html="this.createCopyrightString(2023)"></span>
+    <span class="rotate-[-90deg]" v-html="createCopyrightString(2023)"></span>
 </template>
