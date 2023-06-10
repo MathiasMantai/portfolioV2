@@ -11,4 +11,11 @@ export default defineNuxtConfig({
         autoprefixer: {},
       },
   },
+  app: {
+    head: {
+      link: [
+        {rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg'}
+      ]
+    }
+  }
 })
