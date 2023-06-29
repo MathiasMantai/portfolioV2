@@ -13,8 +13,21 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      title: "Mathias Mantai - Fullstack developer",
       link: [
-        {rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg'}
+        {
+          rel: 'icon', 
+          type: 'image/svg+xml', 
+          href: '/favicon.svg'
+        },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Rubik'
+        },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Montserrat'
+        }
       ]
     }
   }

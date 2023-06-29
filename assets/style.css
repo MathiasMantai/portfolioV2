@@ -7,6 +7,8 @@ html {
 
 body {
     flex-grow: 1;
+    font-family: Rubik;
+    min-width: 100%;
 }
 
 :root 

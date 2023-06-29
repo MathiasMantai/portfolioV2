@@ -1,5 +1,5 @@
 <template>
-    <main class="flex flex-col grow sm:w-[50vw] w-[80vw] m-auto py-10">
+    <main class="flex flex-col grow sm:w-[50vw] w-[100vw] m-auto py-10">
         <div class="text-center sm:text-left">Hi, my name is</div>
         <br />
         <div class="text-[var(--linkColor)] text-4xl px-2 sm:px-0 text-center sm:text-left">Mathias Mantai</div>

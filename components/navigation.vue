@@ -1,12 +1,12 @@
 <template>
-    <header class="sm:w-[50vw] w-[80vw] m-auto py-4 text-lg">
+    <header class="sm:w-[50vw] w-[100vw] m-auto py-4 sm:text-lg">
         <nav>
             <ul class="flex justify-between items-center">
-                <li class="mr-[20vw]">
+                <li class="sm:mr-[20vw]">
                     <Logo />
                 </li>
                 <li>
-                    <ul class="flex gap-8">
+                    <ul class="flex sm:visible sm:gap-8 gap-4 mr-4 sm:m-0">
                         <li>
                             <NuxtLink to="/">
                                 Home
@@ -28,7 +28,7 @@
                             </NuxtLink>
                         </li>
                         <li>
-                            <a href="mailto:mathias.mantai@gmail.com">
+                            <a href="mailto:mathias.mantai@gmail.com" name="mail">
                                 <Mail />
                             </a>
                         </li>
