@@ -1,11 +1,18 @@
-html {
+@font-face 
+{
+    font-display: swap;
+}
+
+html 
+{
     min-height: 100%; /* Look, it's not fixed anymore! */
 
     display: flex;
     flex-direction: column;
 }
 
-body {
+body 
+{
     flex-grow: 1;
     font-family: Rubik;
     font-display: swap;
