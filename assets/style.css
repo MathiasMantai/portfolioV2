@@ -12,7 +12,7 @@
 
 html 
 {
-    min-height: 100vh; /* Look, it's not fixed anymore! */
+    min-height: 100dvh; /* Look, it's not fixed anymore! */
 
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@ html
 
 body 
 {
-    min-height: 100vh;
+    min-height: 100dvh;
     font-family: Rubik;
 }
 
