@@ -14,6 +14,15 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "Mathias Mantai - Fullstack developer",
+      meta: [
+        {
+          charset: "utf-8"
+        },
+        {
+          name: "description",
+          content: "Mathias Mantai - Fullstack developer - Portfolio"
+        }
+      ],
       link: [
         {
           rel: 'icon', 
