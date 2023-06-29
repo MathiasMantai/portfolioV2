@@ -8,6 +8,7 @@ html {
 body {
     flex-grow: 1;
     font-family: Rubik;
+    font-display: swap;
     min-width: 100%;
 }
 

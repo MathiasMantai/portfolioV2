@@ -28,7 +28,7 @@
                             </NuxtLink>
                         </li>
                         <li>
-                            <a href="mailto:mathias.mantai@gmail.com" name="mail">
+                            <a href="mailto:mathias.mantai@gmail.com" aria-label="mail">
                                 <Mail />
                             </a>
                         </li>

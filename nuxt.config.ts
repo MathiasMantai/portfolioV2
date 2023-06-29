@@ -13,6 +13,9 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'en'
+      },
       title: "Mathias Mantai - Fullstack developer",
       meta: [
         {
