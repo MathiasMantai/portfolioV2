@@ -1,5 +1,5 @@
 <template>
-    <header class="sm:w-[50vw] w-[100vw] m-auto py-4 sm:text-lg">
+    <header class="sm:w-[50vw] w-[100vw] mx-auto py-4 sm:text-lg">
         <nav>
             <ul class="flex justify-between items-center">
                 <li class="sm:mr-[20vw] ml-2">

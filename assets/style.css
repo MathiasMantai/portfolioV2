@@ -3,9 +3,16 @@
     font-display: swap;
 }
 
+#__nuxt
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vw;
+}
+
 html 
 {
-    min-height: 100%; /* Look, it's not fixed anymore! */
+    min-height: 100vh; /* Look, it's not fixed anymore! */
 
     display: flex;
     flex-direction: column;
@@ -13,10 +20,8 @@ html
 
 body 
 {
-    flex-grow: 1;
+    min-height: 100vh;
     font-family: Rubik;
-    font-display: swap;
-    min-width: 100%;
 }
 
 :root 
