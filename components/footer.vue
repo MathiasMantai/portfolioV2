@@ -1,5 +1,5 @@
 <template>
-    <div class="flex gap-2 align-center justify-center left-[calc(50%-52px)] bottom-[1vw] items-center
+    <div class="flex gap-2 align-center justify-center left-[calc(50%-52px)] bottom-1 items-center
     sm:gap-0 sm:flex sm:flex-col sm:items-center sm:space-y-4 sm:fixed 
     sm:bottom-[0vw] sm:left-[71px] sm:text-center sm:space-x-0 sm:m-0 sm:w-fit
     ">
