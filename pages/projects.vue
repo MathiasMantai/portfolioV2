@@ -11,8 +11,7 @@
 
 <script>
     import projects from '../content/projects/projects.json'
-
-
+    
     export default {
         data() {
             return {
