@@ -29,6 +29,7 @@ body
     --textColorNav: #ccd6f6;
     --linkColor: rgb(23,190,187);
     --backgroundColor: #0A192F;
+    --cardBackgroundColor: #112240;
     background-color: var(--backgroundColor);
     color: var(--textColorNav)
 }

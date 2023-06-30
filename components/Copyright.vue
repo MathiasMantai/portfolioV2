@@ -22,7 +22,6 @@
                 return res + " Mathias Mantai";
             }
         }
-
     }
 </script>
 
