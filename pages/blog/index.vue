@@ -14,22 +14,24 @@
 
                 <div v-if="index < 3">
                   <nuxt-link :href="article._path">
-                    <p class="text-lg text-[var(--linkColor)]">{{ article.title }}</p>
-                    <p class="">{{ article.description }}</p>
+                    <p class="text-lg text-[var(--linkColor)] hover:underline">{{ article.title }}</p>
                   </nuxt-link>
+
                   <div class="">
+                    <p class="">{{ article.description }}</p>
                     <div class="text-sm text-gray-500">
                       <div>{{ convertDate(article.date) }}</div>
                     </div>
                   </div>
                 </div>
 
-                <div v-else class="lg:col-span-3">
+                <div v-else class="col-span-3">
                   <nuxt-link :href="article._path">
-                    <p class="text-lg text-[var(--linkColor)]">{{ article.title }}</p>
-                    <p class="">{{ article.description }}</p>
+                    <p class="text-lg text-[var(--linkColor)] hover:underline">{{ article.title }}</p>
                   </nuxt-link>
+
                   <div class="">
+                    <p class="">{{ article.description }}</p>
                     <div class="text-sm text-gray-500">
                       <div>{{ convertDate(article.date) }}</div>
                     </div>
