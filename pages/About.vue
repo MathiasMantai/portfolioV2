@@ -1,5 +1,5 @@
 <template>
-<main class="flex grow flex-col sm:w-[50vw] w-[100vw] mx-auto py-10">
-        About page
+    <main class="flex grow flex-col sm:w-[60dvw] w-[100dvw] p-4">
+        about page
     </main>
 </template>

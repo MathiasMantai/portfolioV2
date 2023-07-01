@@ -1,14 +1,16 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
-    "./nuxt.config.{js,ts}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+    content: ['./src/**/*.{html,js,vue,ts}'],
+    theme: {
+        extend: {
+            fontFamily: {
+                sans: ['uncut-sans', ...defaultTheme.fontFamily.sans],
+                serif: ['sprat', ...defaultTheme.fontFamily.serif]
+            }
+        }
+    },
+    plugins: [require('@tailwindcss/typography')]
+};
+

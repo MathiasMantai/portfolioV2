@@ -1,5 +1,5 @@
 <template>
-    <main class="flex grow flex-col gap-8 sm:w-[50vw] w-[100vw] mx-auto py-10 sm:px-0 px-5 sm:text-left text-center">
+    <main class="flex grow flex-col sm:w-[60dvw] w-[100dvw] gap-y-8 p-4">
         <p class="text-lg">
             These are some of the projects I have worked on.
         </p>

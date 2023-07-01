@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-col min-h-[100dvh] items-stretch">
+    <div class="h-[100dvh] flex flex-col items-center sm:w-[70dvw] w-[100dvw] mx-auto">
         <Navigation />
-        <NuxtPage />
+        <NuxtPage class="py-8" />
         <Footer />
     </div>
 </template>
