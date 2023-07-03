@@ -9,7 +9,7 @@
         <hr class="bg-slate-700 border border-slate-700"/>
 
         <div class="grid lg:grid-cols-3 grid-cols-1 gap-8">
-          <ContentList path="/blog" v-slot="{ list }">
+          <ContentList  :query="query" v-slot="{ list }">
             <div v-for="(article, index) in list" :key="article._path" :class="`flex flex-col gap-3 bg-[var(--cardBackgroundColor)] p-4 shadow-md rounded-md border border-slate-700 ` + (index >= 3 ? `lg:col-span-3` : ``)">
 
                 <div v-if="index < 3" class="col-span-1">
