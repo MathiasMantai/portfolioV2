@@ -8,9 +8,9 @@
 
         <hr class="bg-slate-700 border border-slate-700"/>
 
-        <div class="grid lg:grid-cols-3 gap-8">
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-8">
           <ContentList path="/blog" v-slot="{ list }">
-            <div v-for="(article, index) in list" :key="article._path" :class="`flex flex-col gap-3 bg-[var(--cardBackgroundColor)] p-4 shadow-md rounded-md border border-slate-700 ` + (index >= 3 ? `col-span-3` : ``)">
+            <div v-for="(article, index) in list" :key="article._path" :class="`flex flex-col gap-3 bg-[var(--cardBackgroundColor)] p-4 shadow-md rounded-md border border-slate-700 ` + (index >= 3 ? `lg:col-span-3` : ``)">
 
                 <div v-if="index < 3" class="col-span-1">
                   <nuxt-link :href="article._path">
@@ -50,6 +50,11 @@ import { convertDate } from '../../util/index'
 export default {
   methods: {
     convertDate: convertDate
+  },
+  data() {
+    return {
+      query: { path: '/blog', sort: [{ date: -1 }] }
+    }
   }
 }
 </script>
