@@ -1,7 +1,7 @@
 # Portfolio
 - version: 2.1
 
-##Features
+## Features
 - Index page
 - About page
 - Projects page with cards of projects with github links
