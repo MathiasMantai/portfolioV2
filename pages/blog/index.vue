@@ -2,7 +2,7 @@
     <main class="flex grow flex-col sm:w-[60dvw] w-[100dvw] p-4 gap-y-8">
         <div class="text-center sm:text-left">
             <h2 class="text-2xl">
-                Recent Blog Posts
+                Blog Posts
             </h2>
         </div>
 

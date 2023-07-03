@@ -25,7 +25,7 @@
         <p class="">
             {{ convertDate(doc.date) }}
         </p>
-        <div class="prose prose-lg first-letter:text-3xl text-[var(--textColorNav)]">
+        <div class="mx-auto prose prose-md text-justify first-letter:text-3xl text-[var(--textColorNav)]">
             <ContentRenderer :value="doc" />
         </div>
     </ContentDoc>
