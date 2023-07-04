@@ -1,5 +1,3 @@
-
-
 export const convertDate = (published: string): string => {
     const months: { [key: number]: string } = {
         1: "Jan",
@@ -19,3 +17,9 @@ export const convertDate = (published: string): string => {
     const [year, month, day] = date.split("-");
     return `${day}-${months[parseInt(month)]}-${year}`;
 };
+
+
+export function test() 
+{
+    
+}
