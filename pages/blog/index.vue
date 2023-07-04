@@ -17,7 +17,9 @@
                   <div v-if="article.headImg != ''" class="relative hidden md:block">
                     <div class="w-full h-full absolute bg-gradient-to-t from-slate-900 to-transparent">
                     </div>
-                    <img :src="article.headImg" class="w-full h-[200px] rounded-t-md">
+                    <div class="h-20vh">
+                      <img :src="article.headImg" class="w-full  rounded-t-md">
+                    </div>
                   </div>
 
                   <div class="p-3">

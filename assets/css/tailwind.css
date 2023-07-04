@@ -9,7 +9,8 @@
     --backgroundColor: #0A192F;
     --cardBackgroundColor: #112240;
     background-color: var(--backgroundColor);
-    color: var(--textColorNav)
+    color: var(--textColorNav);
+    font-family: Rubik;
 }
 
 .router-link-active
