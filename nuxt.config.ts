@@ -1,13 +1,24 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-simple-sitemap'],
   content: {
     highlight: {
       theme: 'github-dark'
-    },
-    markdown: {
-      
     }
+  },
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: [
+        '/',
+        '/about',
+        '/projects',
+        '/blog'
+      ]
+    }
+  },
+  sitemap: {
+    siteUrl: 'https://mathiasmantai.de',
   },
   app: {
     head: {
