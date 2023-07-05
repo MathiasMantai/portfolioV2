@@ -14,6 +14,7 @@
               <nuxt-link :href="article._path">
                 <div v-if="index < 3" class="col-span-1">
 
+                  <Suspense>
                   <div v-if="article.headImg != ''" class="relative hidden md:block">
                     <div class="w-full h-full absolute bg-gradient-to-t from-slate-900 to-transparent">
                     </div>
@@ -21,6 +22,10 @@
                       <img :src="article.headImg" class="w-full  rounded-t-md">
                     </div>
                   </div>
+                  <template #fallback>
+                      <BlogImageSkeleton />
+                  </template>
+                  </Suspense>
 
                   <div class="p-3">
                   
@@ -59,13 +64,13 @@
 import { convertDate } from '../../util/index'
 
 export default {
-  methods: {
-    convertDate: convertDate
-  },
-  data() {
-    return {
-      query: { path: '/blog', sort: [{ date: -1 }] }
-    }
-  }
+    methods: {
+        convertDate: convertDate
+    },
+    data() {
+        return {
+            query: { path: "/blog", sort: [{ date: -1 }] }
+        };
+    },
 }
 </script>
