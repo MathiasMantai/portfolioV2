@@ -1,5 +1,5 @@
 <template>
-    <main class="flex grow flex-col sm:w-[60dvw] w-[100dvw] p-4">
+    <main class="flex grow justify-center mb-20 flex-col sm:w-[60dvw] w-[100dvw] p-4 transition ease-in ">
         <div class="text-center sm:text-left">Hi, my name is</div>
         <br />
         <div class="text-[var(--linkColor)] text-4xl px-2 sm:px-0 text-center sm:text-left">Mathias Mantai</div>
