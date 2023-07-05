@@ -1,6 +1,6 @@
 <template>
     <div class="bg-[#060B16] pt-4 pb-4 relative rounded-sm mt-4">
-        <span v-if="languageText" :class="`absolute top-0 right-0 p-2 text-[${languageColor}]`">
+        <span v-if="languageText" :style="{color: languageColor ?? null}" :class="`absolute top-0 right-0 p-2`">
             {{ languageText }}
         </span>
         <slot />
@@ -35,7 +35,7 @@ import { useClipboard } from '@vueuse/core'
     const languages: {[key: string] : {language: string, textColor: string}} = {
         'js': {
             language: 'js',
-            textColor: '#E8DD30'
+            textColor: "#E8DD30"
         },
         'vue': {
             language: 'vue',
@@ -43,8 +43,8 @@ import { useClipboard } from '@vueuse/core'
         },
     }
 
-    const languageText = computed(() => languages[props.language!].language ? languages[props.language!].language : null)
-    const languageColor = computed(() => languages[props.language!].textColor ? languages[props.language!].textColor : null)
+    const languageText = computed(() => props.language ? languages[props.language!].language : null)
+    const languageColor: any = computed(() => props.language ? languages[props.language!].textColor : null)
 
     const { copy, copied} = useClipboard()
 </script>
