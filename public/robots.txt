@@ -1,2 +1,4 @@
-UserAgent: *
+User-agent: *
 Allow: /
+
+Sitemap: https://mathiasmantai.de/sitemap.xml
