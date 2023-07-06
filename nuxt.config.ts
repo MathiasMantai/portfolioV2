@@ -21,6 +21,7 @@ export default defineNuxtConfig({
     siteUrl: 'https://mathiasmantai.de',
   },
   app: {
+    
     head: {
       htmlAttrs: {
         lang: 'en'
@@ -41,10 +42,10 @@ export default defineNuxtConfig({
           type: 'image/svg+xml', 
           href: '/favicon.svg'
         },
-        {
-          rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Rubik'
-        },
+        // {
+        //   rel: 'stylesheet',
+        //   href: 'https://fonts.googleapis.com/css2?family=Rubik'
+        // },
       ]
     }
   }
