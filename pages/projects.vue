@@ -11,14 +11,10 @@
     </main>
 </template>
 
-<script>
+<script setup>
     import projects from '../content/projects/projects.json'
-    
-    export default {
-        data() {
-            return {
-                projects: projects
-            }
-        }
-    }
+
+    useHead({
+        title: 'Mathias Mantai - Projects'
+    })
 </script>

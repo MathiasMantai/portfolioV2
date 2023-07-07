@@ -15,3 +15,9 @@
         </div>
     </main>
   </template>
+
+  <script setup>
+    useHead({
+        title: "Mathias Mantai - Fullstack Developer"
+    })
+</script>

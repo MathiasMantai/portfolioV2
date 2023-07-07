@@ -35,6 +35,10 @@
 <script>
   import { convertDate } from '../util/index'
 
+  useHead({
+    title: 'Mathias Mantai - Blog'
+  })
+
   export default {
     methods: {
       convertDate: convertDate

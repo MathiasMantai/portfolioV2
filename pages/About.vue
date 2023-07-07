@@ -17,3 +17,9 @@
                 </blog-paragraph>
     </main>
 </template>
+
+<script setup>
+    useHead({
+        title: "Mathias Mantai - About"
+    })
+</script>
