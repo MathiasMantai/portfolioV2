@@ -1,30 +1,28 @@
-<script>
-    export default {
-        data() {
-            return {
-                startYear: 2023,
-                copyrightString: "Copyright &copy;"
-            }
-        },
-        methods: {
-            createCopyrightString(startYear)
-            {
-                let res = "&copy;";
-                let currentYear = new Date().getFullYear();
-                if(currentYear == startYear)
-                {
-                    res += startYear;
-                }
-                else
-                {
-                    res += startyear + " - " + currentYear;
-                }
-                return res + " Mathias Mantai";
-            }
+<script setup>
+    const startYear = 2023
+    const createCopyrightString = (startYear) =>
+    {
+        let res = "&copy;";
+        let currentYear = new Date().getFullYear();
+        if(currentYear == startYear)
+        {
+            res += startYear;
         }
+        else
+        {
+            res += startYear + " - " + currentYear;
+        }
+        return res + " Mathias Mantai";
     }
+
+    
 </script>
 
 <template>
-    <span class="rotate-[-90deg]" v-html="createCopyrightString(2023)"></span>
+    <div :class="`
+        text-sm bottom-0 w-full text-center
+        sm:w-fit sm:fixed  sm:rotate-[-90deg]
+    ` + (startYear == (new Date().getFullYear()) ? 'sm:bottom-[280px] sm:left-[12px]' : 'sm:bottom-[300px] sm:left-[-12px]' )">
+        <span class="rotate-[-90deg]" v-html="createCopyrightString(startYear)"></span>
+    </div>
 </template>
