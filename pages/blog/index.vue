@@ -60,21 +60,16 @@
     </main>
   </template>
 
-<script>
+<script setup>
 import { convertDate } from '../../util/index'
 
 useHead({
     title: 'Mathias Mantai - Blog'
 })
 
-export default {
-    methods: {
-        convertDate: convertDate
-    },
-    data() {
-        return {
-            query: { path: "/blog", sort: [{ date: -1 }] }
-        };
-    },
-}
+
+
+const query = { path: "/blog", sort: [{ date: -1 }] }
+
+
 </script>

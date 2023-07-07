@@ -23,7 +23,7 @@
                             </NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/blog">
+                            <NuxtLink to="/blog" :class="route.fullPath.includes('blog') ? 'router-link-active' : '' ">
                                 Blog
                             </NuxtLink>
                         </li>
@@ -38,3 +38,7 @@
         </nav>
     </header>
 </template>
+
+<script setup>
+    const route = useRoute()
+</script>
