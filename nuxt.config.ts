@@ -1,6 +1,7 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-simple-sitemap'],
+  plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
   content: {
     highlight: {
       theme: 'github-dark'
