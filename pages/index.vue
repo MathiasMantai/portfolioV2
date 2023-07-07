@@ -14,9 +14,9 @@
             , <br /> creating and maintaining business software.
         </div>
     </main>
-  </template>
+</template>
 
-  <script setup>
+<script setup>
     useHead({
         title: "Mathias Mantai - Fullstack Developer"
     })

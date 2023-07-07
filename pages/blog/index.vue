@@ -58,7 +58,7 @@
           </ContentList>
         </div>
     </main>
-  </template>
+</template>
 
 <script setup>
 import { convertDate } from '../../util/index'
@@ -67,9 +67,5 @@ useHead({
     title: 'Mathias Mantai - Blog'
 })
 
-
-
 const query = { path: "/blog", sort: [{ date: -1 }] }
-
-
 </script>

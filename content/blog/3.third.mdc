@@ -11,17 +11,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget massa sit am
 <!--more--> 
 
 ```js
-    const bla = 5
-    function test() 
-    {
-        console.log("hallo welt")
-    }
+const bla = 5
+function test() 
+{
+    console.log("hallo welt")
+}
 ```
 
 ```vue
-    <template>
-        <div>
-            Hallo Welt
-        </div>
-    </template>
+<template>
+    <div>
+        Hallo Welt
+    </div>
+</template>
 ```

@@ -32,16 +32,10 @@
   </main>
 </template>
 
-<script>
+<script setup>
   import { convertDate } from '../util/index'
 
   useHead({
     title: 'Mathias Mantai - Blog'
   })
-
-  export default {
-    methods: {
-      convertDate: convertDate
-    }
-  }
 </script>

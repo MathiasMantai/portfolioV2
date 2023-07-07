@@ -11,12 +11,10 @@
     </div>
 </template>
 
-<script>
-    export default {
-        props: {
-            name: String,
-            link: String,
-            description: String
-        }
-    }
+<script setup>
+    const props = defineProps({
+        name: String,
+        link: String,
+        description: String
+    })
 </script>

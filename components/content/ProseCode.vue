@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#060B16] pt-4 pb-4 relative rounded-sm mt-4">
+    <div class="bg-[#060B16] pt-4 pb-4 pl-4 relative rounded-sm mt-4">
         <span v-if="languageText" :style="{color: languageColor ?? null}" :class="`absolute top-0 right-0 p-2`">
             {{ languageText }}
         </span>
