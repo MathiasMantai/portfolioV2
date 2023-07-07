@@ -34,8 +34,16 @@
 
 <script setup>
   import { convertDate } from '../util/index'
-
+  const route = useRoute()
+  console.log(route.fullPath)
+  const query = await queryContent(route.fullPath).findOne()
+  console.log(query.keywords)
   useHead({
-    title: 'Mathias Mantai - Blog'
+    title: 'Mathias Mantai - Blog',
+    meta: [
+      {
+        keywords: query.keywords
+      }
+    ]
   })
 </script>
