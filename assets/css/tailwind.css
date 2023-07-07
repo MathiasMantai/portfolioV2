@@ -5,7 +5,7 @@
 :root 
 {
     --textColorNav: #ccd6f6;
-    --linkColor: rgb(23,190,187);
+    --linkColor: #17BEBB;
     --backgroundColor: #0A192F;
     --cardBackgroundColor: #112240;
     background-color: var(--backgroundColor);

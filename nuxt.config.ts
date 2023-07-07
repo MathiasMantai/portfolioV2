@@ -27,7 +27,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en'
       },
-      title: "Mathias Mantai - Fullstack developer",
+
       meta: [
         {
           charset: "utf-8"
@@ -41,7 +41,7 @@ export default defineNuxtConfig({
         {
           rel: 'icon', 
           type: 'image/svg+xml', 
-          href: '/favicon.svg'
+          href: '/favicon2.svg'
         },
         // {
         //   rel: 'stylesheet',
