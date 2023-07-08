@@ -18,6 +18,9 @@
 
 <script setup>
     useHead({
-        title: "Mathias Mantai - Fullstack Developer"
+        title: "Mathias Mantai - Fullstack Developer",
+        meta: {
+            keywords: 'mathias, mantai, blog, fullstack, web, development, nuxt'
+        }
     })
 </script>

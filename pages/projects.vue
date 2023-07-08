@@ -15,6 +15,9 @@
     import projects from '../content/projects/projects.json'
 
     useHead({
-        title: 'Mathias Mantai - Projects'
+        title: 'Mathias Mantai - Projects',
+        meta: {
+            keywords: 'mathias, mantai, blog, fullstack, web, development, nuxt'
+        }
     })
 </script>

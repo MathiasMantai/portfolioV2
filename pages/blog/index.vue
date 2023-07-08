@@ -64,7 +64,10 @@
 import { convertDate } from '../../util/index'
 
 useHead({
-    title: 'Mathias Mantai - Blog'
+    title: 'Mathias Mantai - Blog',
+    meta: {
+      keywords: 'mathias, mantai, blog, fullstack, web, development, nuxt'
+    }
 })
 
 const query = { path: "/blog", sort: [{ date: -1 }] }
