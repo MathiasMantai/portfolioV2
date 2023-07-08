@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#060B16] pt-4 pb-4 pl-4 relative rounded-sm mt-4">
+    <div class="bg-[#060B16] pt-8 pb-8 pl-4 relative rounded-sm mt-4">
         <span v-if="languageText" :style="{color: languageColor ?? null}" :class="`absolute top-0 right-0 p-2`">
             {{ languageText }}
         </span>
@@ -40,6 +40,10 @@ import { useClipboard } from '@vueuse/core'
         'vue': {
             language: 'vue',
             textColor: "#42B883"
+        },
+        'ts': {
+            language: 'ts',
+            textColor: "#2F74C0"
         },
     }
 

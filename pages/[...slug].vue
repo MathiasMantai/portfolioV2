@@ -1,5 +1,5 @@
 <template>
-    <main class="flex grow flex-col sm:w-[60dvw] w-[100dvw] p-4">
+    <main class="container max-w-3xl mx-auto prose-md flex grow flex-col sm:w-[60dvw] w-[100dvw] p-4">
     <nuxt-link class="block cursor-pointer" href="/blog">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,10 @@
         <p class="">
             {{ convertDate(doc.date) }}
         </p>
-        <div class="container max-w-3xl mx-auto prose-md text-justify text-[var(--textColorNav)]">
+        <!-- <div class="mx-auto w-[100%] flex justify-center">
+            <img :src="doc.headImg" class="w-[80%]" />
+        </div> -->
+        <div class="mt-8 text-justify text-[var(--textColorNav)]">
             <ContentRenderer :value="doc" />
         </div>
     </ContentDoc>
