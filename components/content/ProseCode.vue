@@ -56,8 +56,7 @@ import { useClipboard } from '@vueuse/core'
 </script>
 
 <style>
-    code {
-        white-space : pre-wrap !important;
-        word-break: break-word;
+    pre {
+        overflow-x: auto;
     }
 </style>
