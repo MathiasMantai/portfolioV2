@@ -45,7 +45,8 @@
     title: 'Mathias Mantai - Blog',
     meta: [
       {
-        keywords: query.keywords
+        keywords: query.keywords,
+        date: query.date
       }
     ]
   })
