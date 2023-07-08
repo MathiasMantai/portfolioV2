@@ -1,9 +1,11 @@
 <template>
-    <div class="bg-[#060B16] pt-8 pb-8 pl-4 relative rounded-sm mt-4">
+    <div class="bg-[#060B16] pt-8 pb-8 pl-4 relative rounded-sm mt-4 break-all">
         <span v-if="languageText" :style="{color: languageColor ?? null}" :class="`absolute top-0 right-0 p-2`">
             {{ languageText }}
         </span>
+        <div class="break-all" style="">
         <slot />
+        </div>
         <div class="absolute bottom-0 right-0 p-2">
             <span v-if="copied" class="mb-4">
                 Code Copied
@@ -52,3 +54,10 @@ import { useClipboard } from '@vueuse/core'
 
     const { copy, copied} = useClipboard()
 </script>
+
+<style>
+    code {
+        white-space : pre-wrap !important;
+        word-break: break-word;
+    }
+</style>
