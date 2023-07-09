@@ -1,5 +1,5 @@
 <template>
-    <main class="sm:w-[60dvw] w-[100dvw] p-4">
+    <main class="sm:w-[60dvw] w-[100dvw] p-4 grow">
         <p class="text-lg mb-8">
             These are some of the projects I have worked on.
         </p>
