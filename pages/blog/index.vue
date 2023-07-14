@@ -33,7 +33,7 @@
               
 
                   <div class="">
-                    <p class="">{{ article.description }}...</p>
+                    <p class="">{{ article.desc }}...</p>
                     <div class="text-sm text-gray-500">
                       <div>{{ convertDate(article.date) }}</div>
                     </div>
