@@ -10,7 +10,7 @@
 
 
             <ContentList  :query="query" v-slot="{ list }">
-                <div v-for="article in list" :key="article._path" class="flex flex-row gap-3 bg-[var(--cardBackgroundColor)] shadow-md rounded-md border border-slate-700">
+                <div v-for="article in list" :key="article._path" class="flex flex-row gap-3 bg-[var(--cardBackgroundColor)] shadow-md rounded-md border border-slate-700 transition ease-in-out hover:-translate-y-3">
                 <nuxt-link :href="article._path">
                     <div class="flex flex-col sm:flex-row">
                     <img :src="article.headImg" class="h-full sm:w-[200px] rounded-tl-md rounded-tr-md sm:rounded-bl-md sm:rounded-tr-none">
