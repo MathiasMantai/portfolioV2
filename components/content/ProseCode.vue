@@ -47,12 +47,16 @@ import { useClipboard } from '@vueuse/core'
             language: 'ts',
             textColor: "#2F74C0"
         },
+        'html': {
+            language: 'html',
+            textColor: "rgb(216,82,42)"
+        },
     }
 
     const languageText = computed(() => props.language ? languages[props.language!].language : null)
     const languageColor: any = computed(() => props.language ? languages[props.language!].textColor : null)
-
     const { copy, copied} = useClipboard()
+    
 </script>
 
 <style>
