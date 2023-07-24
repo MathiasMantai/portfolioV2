@@ -43,11 +43,10 @@
   console.log(query.keywords)
   useHead({
     title: 'Mathias Mantai - Blog',
-    meta: [
-      {
-        keywords: query.keywords,
-        date: query.date
-      }
+    meta: 
+    [
+        {name: 'keywords', content: query.keywords},
+        {name: 'date', content: query.date}
     ]
   })
 </script>
