@@ -18,7 +18,7 @@
     useHead({
         title: "Mathias Mantai - About",
         meta: {
-            keywords: 'mathias, mantai, blog, fullstack, web, development, nuxt'
+            keywords: 'mathias, mantai, blog, fullstack, web, development, nuxt, vue, projects, portfolio, about'
         }
     })
 </script>
