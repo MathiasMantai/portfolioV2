@@ -6,7 +6,7 @@
     },
     {
         "name": "Tauri - Custom Titlebar",
-        "description": "Examples for creating your own custom Titlebars for your Tauri Apps.",
+        "description": "Example Components for React and Vue for creating your own custom Titlebars for your Tauri Apps.",
         "link": "https://github.com/MathiasMantai/tauri-custom-titlebar"
     }
 ]
