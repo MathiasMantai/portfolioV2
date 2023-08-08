@@ -20,14 +20,23 @@ export default defineNuxtConfig({
   },
   sitemap: {
     siteUrl: 'https://mathiasmantai.de',
+    sitemaps: {
+      posts: {
+        include: ['/blog/**'],
+        defaults: { priority: 0.7 }
+      },
+      pages: {
+        exclude: [
+          '/blog/**'
+        ]
+      }
+    }
   },
   app: {
-    
     head: {
       htmlAttrs: {
         lang: 'en'
       },
-
       meta: [
         {
           charset: "utf-8"
