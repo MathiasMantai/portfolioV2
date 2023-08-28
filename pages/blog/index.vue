@@ -46,7 +46,10 @@ useHead({
             name: 'keywords',
             content: 'mathias, mantai, blog, fullstack, web, development, nuxt, portfolio'
         },
-        {name: 'date', content: Date.now()}
+        {
+            name: 'date', 
+            content: Date.now()
+        }
     ]
 })
 

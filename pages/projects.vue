@@ -1,7 +1,7 @@
 <template>
     <main class="sm:w-[60dvw] w-[100dvw] p-4 grow">
         <p class="text-lg mb-8">
-            These are some of the projects I have worked on.
+            These are some of the projects/packages I have worked on /I am working on.
         </p>
         <div class="grid sm:grid-cols-2 grid-cols-1 gap-8">
         <div v-for="project in projects" class="">
@@ -20,7 +20,11 @@
             {
                 name: 'keywords',
                 content: 'mathias, mantai, blog, fullstack, web, development, nuxt, vue, projects, portfolio, about, projects'
-            }
+            },
+            {
+                name: 'date', 
+                content: Date.now()
+        }
         ]
     })
 </script>

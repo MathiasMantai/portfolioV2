@@ -21,6 +21,10 @@
             {
                 name: 'keywords',
                 content: 'mathias, mantai, blog, fullstack, web, development, nuxt, vue, projects, portfolio, about'
+            },
+            {
+                name: 'date', 
+                content: Date.now()
             }
         ]
     })
