@@ -11,6 +11,24 @@
         <blog-paragraph>
             Beyond coding, I have a variety of hobbies that keep me inspired and balanced. When I'm not immersed in lines of code, you can find me tinkering with electronics, indulging in video games, reading books, or experimenting with new recipes in the kitchen.
         </blog-paragraph>
+
+        <br />
+
+        <h2 class="text-2xl text-[var(--linkColor)]">Favourite Languages</h2>
+        
+        <br /> 
+
+        <h3 class="text-xl">PHP</h3>
+        <blog-paragraph>
+            The first "real" programming language I have learned. To this day I still use this language for most projects (professionally and for hobby projects). With PHP Version 8, we got a bunch of cool features and optimizations that made PHP a lot better. Don't believe phrases like "PHP is dead"!!!
+        </blog-paragraph>
+
+        <br />
+
+        <h3 class="text-xl">Go (Golang)</h3>
+        <blog-paragraph>
+            My newest obsession. It's just so easy to learn and build projects with. While it is not without problems I highly receommend learning this language
+        </blog-paragraph>
     </main>
 </template>
 
