@@ -8,5 +8,15 @@
         "name": "Tauri - Custom Titlebar",
         "description": "Example Components for React and Vue for creating your own custom Titlebars for your Tauri Apps.",
         "link": "https://github.com/MathiasMantai/tauri-custom-titlebar"
+    },
+    {
+        "name": "Database and File based Logger",
+        "description": "A logging tool written in PHP. Can log to files or databases",
+        "link": "https://github.com/mathiasmantai/logging"
+    },
+    {
+        "name": "dotenv parser",
+        "description": "A simple script to load .env files in PHP",
+        "link": "https://github.com/mathiasmantai/dotenv"
     }
 ]
