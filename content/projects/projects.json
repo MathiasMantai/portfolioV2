@@ -10,6 +10,16 @@
         "link": "https://github.com/MathiasMantai/tauri-custom-titlebar"
     },
     {
+        "name": "Routing for Web Apis",
+        "description": "A package to create web apis with web routes",
+        "link": "https://github.com/mathiasmantai/web-router"
+    },
+    {
+        "name": "Querybuilder",
+        "description": "A simple method based query builder written in PHP",
+        "link": "https://github.com/mathiasmantai/php-querybuilder"
+    },
+    {
         "name": "Database and File based Logger",
         "description": "A logging tool written in PHP. Can log to files or databases",
         "link": "https://github.com/mathiasmantai/logging"
