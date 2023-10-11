@@ -1,18 +1,35 @@
 <template>
-    <main class="container max-w-3xl flex grow justify-center items-center flex-col sm:w-[60dvw] w-[100dvw] p-4 text-justify">
-        <div class="border border-slate-700 bg-[var(--cardBackgroundColor)] shadow-md rounded-md p-3">
-            <h2>Coming Soon...</h2>
-        </div>
+    <main class="flex grow flex-col items-center sm:w-[60dvw] w-[100dvw] p-4 text-justify">
+        <TimeLine :data="data" />
     </main>
 </template>
 
 <script setup>
+    const data = [
+        {
+            date: 'since September 2021',
+            title: 'Software Developer',
+            company: 'Meuser Energy/Meuser IT',
+            languages: 'PHP, Javascript, Typescript, Python, Golang',
+            frameworks: 'React, Vue, Nuxt, Laravel, Django',
+            other_technologies: 'MySQL, PostgreSQL, SQL Server, Docker'
+        },
+        {
+            date: '2019 - 2021',
+            title: 'Freelance Software Developer',
+            company: '',
+            languages: 'PHP, Javascript',
+            frameworks: 'React, Vue, Laravel',
+            other_technologies: 'MySQL'
+        }
+    ]
+    
     useHead({
         title: "Mathias Mantai - Work Experience",
         meta: [
             {
                 name: 'keywords',
-                content: 'mathias, mantai, blog, personal, fullstack, web, development, nuxt, vue, projects, portfolio, about, work-experience'
+                content: 'mathias, mantai, blog, personal, fullstack, web, development, nuxt, vue, projects, portfolio, about, work-experience, work, experience'
             },
             {
                 name: 'date', 
@@ -21,3 +38,6 @@
         ]
     })
 </script>
+
+<style>
+</style>
