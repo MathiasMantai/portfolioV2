@@ -39,8 +39,8 @@
                                     @mouseenter="openDropdown = true"
                                     @mouseleave="openDropdown = false"
                                 >
-                                    <NuxtLink to="/about/personal" class="block px-4 py-2 ">Personal</NuxtLink>
-                                    <NuxtLink to="/about/work-experience" class="block px-4 py-2 ">Work Experience</NuxtLink>
+                                    <NuxtLink to="/about/personal" class="block px-4 py-2 hover:underline hover:text-[var(--linkColor)]">Personal</NuxtLink>
+                                    <NuxtLink to="/about/work-experience" class="block px-4 py-2 hover:underline hover:text-[var(--linkColor)]">Work Experience</NuxtLink>
                                 </div>
                             </div>
                         </li>
