@@ -7,7 +7,7 @@
 <script setup>
     const data = [
         {
-            date: 'since September 2021',
+            date: 'since Sep. 2021',
             title: 'Software Developer',
             company: 'Meuser Energy/Meuser IT',
             languages: 'PHP, Javascript, Typescript, Python, Golang',
@@ -19,7 +19,7 @@
             title: 'Freelance Software Developer',
             company: '',
             languages: 'PHP, Javascript',
-            frameworks: 'React, Vue, Laravel',
+            frameworks: 'Vue, Laravel',
             other_technologies: 'MySQL'
         }
     ]
