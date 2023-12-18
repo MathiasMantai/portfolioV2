@@ -24,7 +24,7 @@
             {
                 name: 'date', 
                 content: Date.now()
-        }
+            }
         ]
     })
 </script>

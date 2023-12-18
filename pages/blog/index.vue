@@ -5,15 +5,12 @@
                 Blog Posts
             </h2>
         </div>
-
         <hr class="bg-slate-700 border border-slate-700"/>
-
-            <ContentList  :query="query" v-slot="{ list }">
-                <div v-for="article in list" :key="article._path" class="flex flex-row gap-3 bg-[var(--cardBackgroundColor)] shadow-md rounded-md border border-slate-700 transition ease-in-out hover:-translate-y-3">
-                <nuxt-link :href="article._path">
-                    <div class="flex flex-col lg:flex-row">
+        <ContentList :query="query" v-slot="{ list }">
+            <div v-for="article in list" :key="article._path" class="flex flex-row gap-3 bg-[var(--cardBackgroundColor)] shadow-md rounded-md border border-slate-700 transition ease-in-out hover:-translate-y-3">
+            <nuxt-link :href="article._path">
+                <div class="flex flex-col lg:flex-row">
                     <img :src="article.headImg" class="lg:w-1/3  rounded-tl-md rounded-tr-md sm:rounded-bl-md sm:rounded-tr-none">
-
                     <div class="flex flex-col p-4">
                         <h2 class="text-lg text-[var(--linkColor)] hover:underline">
                             {{ article.title }}
@@ -27,12 +24,10 @@
                             <div>{{ convertDate(article.date) }}</div>
                         </div>
                     </div>
-                    
-                    </div>
-                </nuxt-link>
                 </div>
-            </ContentList>
-
+            </nuxt-link>
+            </div>
+        </ContentList>
     </main>
 </template>
 
