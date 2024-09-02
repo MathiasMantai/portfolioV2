@@ -14,6 +14,11 @@
   ],
   "packages": [
     {
+        "name": "SQL2Interface",
+        "description": "A program to parse SQL CREATE statements into Typescript interfaces",
+        "link": "https://github.com/MathiasMantai/SQL2Interface"
+    },
+    {
       "name": "Tauri - Custom Titlebar",
       "description": "Example Components for React and Vue for creating your own custom Titlebars for your Tauri Apps.",
       "link": "https://github.com/MathiasMantai/tauri-custom-titlebar"
