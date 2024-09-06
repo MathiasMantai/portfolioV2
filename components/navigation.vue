@@ -50,9 +50,9 @@
                             </NuxtLink>
                         </li>
                         <li>
-                            <NuxtLink to="/blog" :class="route.fullPath.includes('blog') ? 'router-link-active' : '' ">
+                            <a href="https://blog.mathiasmantai.de">
                                 Blog
-                            </NuxtLink>
+                            </a>
                         </li>
                         <li>
                             <a href="mailto:mathias.mantai@gmail.com" aria-label="mail">

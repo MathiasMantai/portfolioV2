@@ -1,12 +1,16 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-simple-sitemap'],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-simple-sitemap', '@nuxtjs/google-adsense'],
   plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
   content: {
     highlight: {
       theme: 'github-dark'
     }
   },
+  googleAdsense: {
+		id: 'ca-pub-4346636750892358',
+		test: true
+	},
   nitro: {
     prerender: {
       crawlLinks: true,
