@@ -1,6 +1,7 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-simple-sitemap'],
+  compatibilityDate: "2024-09-06",
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxtjs/sitemap'],
   plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
   content: {
     highlight: {
@@ -19,19 +20,9 @@ export default defineNuxtConfig({
       ]
     }
   },
-  sitemap: {
-    siteUrl: 'https://mathiasmantai.de',
-    sitemaps: {
-      posts: {
-        include: ['/blog/**'],
-        defaults: { priority: 0.7 }
-      },
-      pages: {
-        exclude: [
-          '/blog/**'
-        ]
-      }
-    }
+  site: {
+    url: 'https://mathiasmantai.de',
+    name: "Mathias Mantai - Fullstack developer - Portfolio",
   },
   app: {
     head: {
@@ -39,12 +30,12 @@ export default defineNuxtConfig({
         lang: 'en'
       },
       script: [
-				{
-					async: true,
-					src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4346636750892358",
-					crossorigin: "anonymous"
-				}
-			],
+                {
+                    async: true,
+                    src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4346636750892358",
+                    crossorigin: "anonymous"
+                }
+            ],
       meta: [
         {
           charset: "utf-8"
