@@ -1,16 +1,12 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-simple-sitemap', '@nuxtjs/google-adsense'],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-simple-sitemap'],
   plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
   content: {
     highlight: {
       theme: 'github-dark'
     }
   },
-  googleAdsense: {
-		id: 'ca-pub-4346636750892358',
-		test: true
-	},
   nitro: {
     prerender: {
       crawlLinks: true,
@@ -42,6 +38,13 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en'
       },
+      script: [
+				{
+					async: true,
+					src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4346636750892358",
+					crossorigin: "anonymous"
+				}
+			],
       meta: [
         {
           charset: "utf-8"
