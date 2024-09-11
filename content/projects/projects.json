@@ -16,7 +16,8 @@
     {
         "name": "SQL2Interface",
         "description": "A program to parse SQL CREATE statements into Typescript interfaces",
-        "link": "https://github.com/MathiasMantai/SQL2Interface"
+        "link": "https://github.com/MathiasMantai/SQL2Interface",
+        "download": "/download/sql2interface/s2i.exe"
     },
     {
       "name": "Tauri - Custom Titlebar",
