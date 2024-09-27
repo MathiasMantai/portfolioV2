@@ -15,8 +15,7 @@ export default defineNuxtConfig({
         '/',
         '/about/personal',
         '/about/work-experience',
-        '/projects',
-        '/blog'
+        '/projects'
       ]
     }
   },
@@ -31,9 +30,9 @@ export default defineNuxtConfig({
       },
       script: [
                 {
-                    async: true,
-                    src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4346636750892358",
-                    crossorigin: "anonymous"
+                  async: true,
+                  src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4346636750892358",
+                  crossorigin: "anonymous"
                 }
             ],
       meta: [
