@@ -7,15 +7,20 @@
     },
     {
       "name": "Desktop Cleanup",
-      "description": "A windows app to cleanup your desktop by moving files to specified directories",
+      "description": "A windows app to cleanup your desktop by moving files to specified directories.",
       "link": "https://github.com/mathiasmantai/desktop_cleanup",
       "download": "/download/desktop_cleanup/desktop_cleanup_setup.exe"
     }
   ],
   "packages": [
     {
+      "name": "Gotools",
+      "description": "A collection of useful packages I have written for go.",
+      "link": "https://github.com/MathiasMantai/gotools"
+    },
+    {
         "name": "SQL2Interface",
-        "description": "A program to parse SQL CREATE statements into Typescript interfaces",
+        "description": "A program to parse SQL CREATE statements into Typescript interfaces.",
         "link": "https://github.com/MathiasMantai/SQL2Interface",
         "download": "/download/sql2interface/s2i.exe"
     },
@@ -26,22 +31,22 @@
     },
     {
       "name": "Routing for Web Apis",
-      "description": "A package to create web apis with web routes",
+      "description": "A package to create web apis with web routes.",
       "link": "https://github.com/mathiasmantai/web-router"
     },
     {
       "name": "Querybuilder",
-      "description": "A simple method based query builder written in PHP",
+      "description": "A simple method based query builder written in PHP.",
       "link": "https://github.com/mathiasmantai/php-querybuilder"
     },
     {
       "name": "Database and File based Logger",
-      "description": "A logging tool written in PHP. Can log to files or databases",
+      "description": "A logging tool written in PHP. Can log to files or databases.",
       "link": "https://github.com/mathiasmantai/logging"
     },
     {
       "name": "dotenv parser",
-      "description": "A simple script to load .env files in PHP",
+      "description": "A simple script to load .env files in PHP.",
       "link": "https://github.com/mathiasmantai/dotenv"
     }
   ]
