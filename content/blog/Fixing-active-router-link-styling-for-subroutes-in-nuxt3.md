@@ -9,7 +9,7 @@ keywords: nuxt3, router, vue, vuejs, fix, subroutes, styling, router link active
 <br />
 
 ::blog-paragraph
-While creating the blog for this website, I noticed something strange. When navigating to a subroute (for blog posts for example), the router doesn’t recognize the main route (”/blog” for example) as an active route.
+While creating the blog for this website, I noticed something strange. When navigating to a subroute (for blog posts for example), the router doesn't recognize the main route ("/blog" for example) as an active route.
 ::blog-paragraph
 
 <br />
