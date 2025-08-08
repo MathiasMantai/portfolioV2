@@ -1,4 +1,12 @@
 {
+  "websites": [
+    {
+      "name": "FC Germania-Lich Steinstraß",
+      "description": "A web presence for the soccer team FC Germania-Lich Steinstraß",
+      "link": "https://germania-lich-steinstrass.de/",
+      "image": "/img/projects/germania_steinstrass.png"
+    }
+  ],
   "apps": [
     {
       "name": "goMonitoring",

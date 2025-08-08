@@ -3,10 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --textColorNav: #ccd6f6;
+  /* --textColorNav: #ccd6f6;
   --linkColor: #17BEBB;
   --backgroundColor: #0A192F;
-  --cardBackgroundColor: #112240;
+  --cardBackgroundColor: #112240; */
+
+  --textColorNav: #ccd6f6;
+  --linkColor: #45B96B;
+  --backgroundColor: #0B0A0A;
+  --cardBackgroundColor: #121110;
   background-color: var(--backgroundColor);
   color: var(--textColorNav);
   font-family: Rubik;
