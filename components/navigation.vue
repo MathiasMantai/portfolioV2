@@ -51,9 +51,9 @@
                             </NuxtLink>
                         </li>
                         <li>
-                            <a href="https://blog.mathiasmantai.de">
+                            <NuxtLink to="/blog">
                                 Blog
-                            </a>
+                            </NuxtLink>
                         </li>
                         <li class="hover:text-[var(--linkColor)] hover:underline">
                             <a href="mailto:mathias.mantai@gmail.com" aria-label="mail">
