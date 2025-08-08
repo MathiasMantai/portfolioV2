@@ -1,5 +1,5 @@
 ---
-title: Making your Tauri Apps more “Desktop” like
+title: Making your Tauri Apps more Desktop like
 description: Tips to make your Tauri App seem more “Desktop” like
 date: 2023-07-24
 headImg: tauri_optimize.png
